@@ -1,0 +1,187 @@
+*{
+	margin:0;
+	padding:0;
+	box-sizing:border-box;
+}
+body{
+	font-family: 'Architects Daughter', cursive;
+font-family: 'Benne', serif;
+font-family: 'Poppins', sans-serif;
+}
+.navbar{
+	display:flex;
+	align-items:center;
+	padding:20px;
+}
+nav{
+	flex:1;
+	text-align:right;
+}
+nav ul{
+	display:inline-block;
+	list-style-type:none;
+}
+nav ul li{
+	display:inline-block;
+	margin-right:20px;
+}
+a{
+	text-decoration:none;
+	color:#555;
+}
+p{
+	color:#555;
+}
+.containter{
+	max-width:1300px;
+	margin:auto;
+	padding-left:25px;
+	padding-right:25px;
+}
+	.row{
+		display:flex;
+		align-items:center;
+		flex-wrap:wrap;
+		justify-content:space-around;
+		margin-left:55px;
+
+	}
+	.col-2{
+		flex-basis:50%;
+		min-width:300px;
+	}
+	.col-2 img{
+		max-width:80%;
+		padding: 30px 0;
+		margin:40px;
+	}
+	col-2 h1{
+		font-size:50px;
+		line-height:60px;
+		margin:25px 0;
+	}
+	.btn{
+		display:inline-block;
+		background:#ffbaee;
+		color:#4d4d4d;
+		padding:8px 30px;
+		margin:30px 0;
+		border-radius:30px;
+		transition:background 0.5s;
+	}
+	.btn:hover{
+		background:#fff;
+	}
+	.header{
+		background:radial-gradient(#fff,#FAD2CC);
+	}
+	.header.row{
+		margin-top:70px;
+	}
+
+ main-top1{
+	 height: 540px;
+	margin-top: 40px;
+}
+	.main-top-about{
+		float:center;
+	}
+	.main-top-about h1{
+	font-size: 30px;
+	text-align: center;
+	font-family: 'Architects Daughter', cursive;
+font-family: 'Benne', serif;
+font-family: 'Poppins', sans-serif;
+}
+	.main-center{
+	text-align: center;
+	margin-top: 20px;
+	}
+
+	.col-sm-7{
+		flex-basis:50%;
+		min-width:300px;
+	}
+	.col-sm-7 img{
+		width:70%;
+		padding:30px 0;
+	}	
+		.header1{
+		background:radial-gradient(#fff,#FAD2CC);
+	}
+	
+.body1{
+		background:radial-gradient(#fff,#FAD2CC);
+	}
+	h5{
+	color:#430000;
+	font-size:50px;
+	}
+.card{
+	width:300px;
+	height:330px;
+	display:inline-block;
+	border-radius:10px;
+	padding: 15px 25px;
+	box-sizing:border-box;
+	cursor:pointer;
+	margin:45px 45px;
+	background-image:url(images/usa.jpg);
+	background-position:center;
+	background-size:cover;
+	transition:transform 0.5s;
+}
+.card1{
+	background-image:url(images/aus.jpg);
+}
+.card2{
+	background-image:url(images/berlin.jpg);
+}
+	.card3{
+		background-image:url(images/usa.jpg);
+	}
+	.card4{
+		background-image:url(images/denmark.jpg);
+	}
+	.card5{
+	background-image:url(images/italy.jpg);
+	}
+	.card6{
+		background-image:url(images/spain.jpg);
+	}
+.card:hover{
+	transform:translateY(-10px);
+}
+}
+.social-icons {
+  text-align: center;
+  width:280px;
+  }  
+  
+.social-icons li {
+  display:inline-block;
+  list-style-type:none;
+  margin: 160px;
+  position:center;
+  }
+  
+.social-icons li a {
+  border-bottom: none;
+  position:center;
+}
+.social-icons li img {
+  width:50px;
+  height:50px;
+  margin-right: 30px;
+  text-align: center;
+  position:center;
+}
+.body{
+		background:radial-gradient(#fff,#FAD2CC);
+}
+
+
+	
+	
+	
+	
